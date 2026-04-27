@@ -1,0 +1,621 @@
+/* ==========================================================================
+   1. THE GLOBAL SCOPED RESET (Mimics Tailwind CDN Preflight)
+   ========================================================================== */
+.scdkpi-main-viewport,
+.scdkpi-blocks,
+#scdkpi-block-modal {
+	line-height: 1.5;
+	-webkit-text-size-adjust: 100%;
+	tab-size: 4;
+	font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Fix Box Sizing, Borders, and Paragraphs all at once */
+.scdkpi-main-viewport *,
+.scdkpi-main-viewport *::before,
+.scdkpi-main-viewport *::after,
+.scdkpi-kpi-main-viewport *,
+.scdkpi-kpi-main-viewport *::before,
+.scdkpi-kpi-main-viewport *::after,
+.scdkpi-blocks *,
+.scdkpi-blocks *::before,
+.scdkpi-blocks *::after {
+	box-sizing: border-box;
+	border-width: 0;
+	border-style: solid;
+	border-color: #e5e7eb; /* Default Tailwind slate-200 */
+}
+
+/* Reset Typography & Elements */
+.scdkpi-main-viewport p,
+.scdkpi-kpi-main-viewport p,
+.scdkpi-blocks p {
+	margin: 0;
+	padding: 0;
+}
+.scdkpi-main-viewport h1,
+.scdkpi-main-viewport h2,
+.scdkpi-main-viewport h3,
+.scdkpi-kpi-main-viewport h1,
+.scdkpi-kpi-main-viewport h2,
+.scdkpi-kpi-main-viewport h3,
+.scdkpi-blocks h1,
+.scdkpi-blocks h2,
+.scdkpi-blocks h3 {
+	font-size: inherit;
+	font-weight: inherit;
+	margin: 0;
+}
+
+/* Link Reset: Kill WP Blue */
+.scdkpi-main-viewport a,
+.scdkpi-kpi-main-viewport a,
+.scdkpi-blocks a {
+	color: inherit;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+.scdkpi-main-viewport a:hover,
+.scdkpi-kpi-main-viewport a:hover,
+.scdkpi-blocks a:hover {
+	color: #7c3aed;
+}
+
+/* ==========================================================================
+   BUTTON & INPUT RESET
+   ========================================================================== */
+.scdkpi-main-viewport button,
+.scdkpi-main-viewport input[type="button"],
+.scdkpi-main-viewport input[type="submit"],
+.scdkpi-kpi-main-viewport button,
+.scdkpi-kpi-main-viewport input[type="button"],
+.scdkpi-kpi-main-viewport input[type="submit"],
+.scdkpi-blocks button {
+	background: none; /* Removes WP default gray/blue */
+	background-color: none;
+	border: none;
+	box-shadow: none; /* Removes WP button shadows */
+	text-shadow: none;
+	border: none;
+	cursor: pointer;
+	font-family: inherit;
+	appearance: none;
+	-webkit-appearance: none;
+}
+
+/* Target all interaction states to kill the default blue/orange outlines */
+.scdkpi-main-viewport button:focus,
+.scdkpi-main-viewport button:active,
+.scdkpi-main-viewport button:focus-visible,
+.scdkpi-main-viewport input:focus,
+.scdkpi-main-viewport input:active,
+.scdkpi-kpi-main-viewport button:focus,
+.scdkpi-kpi-main-viewport button:active,
+.scdkpi-kpi-main-viewport button:focus-visible,
+.scdkpi-kpi-main-viewport input:focus,
+.scdkpi-kpi-main-viewport input:active,
+.scdkpi-blocks button:focus {
+	outline: none;
+	box-shadow: none;
+	border: none;
+	background-image: none; /* Some WP themes add a gradient on click */
+}
+
+/* Specific fix for Chrome/Safari's persistent focus ring */
+.scdkpi-main-viewport *:focus,
+.scdkpi-kpi-main-viewport *:focus {
+	outline: 0;
+}
+
+/* Ensure our Tailwind classes (like bg-purple-600) can still apply */
+.scdkpi-main-viewport button[class*="bg-"],
+.scdkpi-main-viewport input[type="submit"][class*="bg-"],
+.scdkpi-kpi-main-viewport button[class*="bg-"],
+.scdkpi-kpi-main-viewport input[type="submit"][class*="bg-"] {
+	background-color: currentColor; /* Allows Tailwind classes to take over */
+}
+
+/* ==========================================================================
+   2. EDITOR-ONLY PREVIEW FIXES (.scdkpi-block-editor-preview)
+   ========================================================================== */
+
+/* 1. Fix the H2 and Heading Margins (The 45px issue) */
+.scdkpi-block-editor-preview h1,
+.scdkpi-block-editor-preview h2,
+.scdkpi-block-editor-preview h3,
+.scdkpi-block-editor-preview h4 {
+	margin-top: 0 ;
+	margin-bottom: 0 ;
+	padding-top: 0 ;
+	padding-bottom: 0 ;
+}
+
+/* 2. Remove Block-Gap (The space WP adds between all blocks) */
+.scdkpi-block-editor-preview .is-root-container > .wp-block,
+.scdkpi-block-editor-preview .wp-block {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+/* 3. Remove "Appender" Space (The 'Click to add block' empty area) */
+.scdkpi-block-editor-preview .block-list-appender,
+.scdkpi-block-editor-preview
+	.wp-block-group__inner-container
+	> .block-list-appender {
+	display: none !important;
+	height: 0 !important;
+}
+
+/* 4. Fix Kadence Specific Row/Section Editor Padding */
+.scdkpi-block-editor-preview .kt-row-column-wrap,
+.scdkpi-block-editor-preview .kt-section-main-attr {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+/* 5. Force Paragraph Reset (Editor tends to inject 1em margin) */
+.scdkpi-block-editor-preview p {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+/* 6. Fix "Post Title" extra space if it's appearing inside your preview */
+.scdkpi-block-editor-preview .editor-post-title {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* ==========================================================================
+   3. HEADER & LAYOUT LOGIC
+   ========================================================================== */
+/* Container & Border */
+.scdkpi-header-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #e2e8f0 !important; /* border-slate-200 */
+}
+
+/* Status Indicator Animation */
+.scdkpi-status-indicator {
+	position: relative;
+	display: flex;
+	height: 0.5rem;
+	width: 0.5rem;
+}
+
+.scdkpi-status-dot {
+	position: relative;
+	display: inline-flex;
+	border-radius: 9999px;
+	height: 0.5rem;
+	width: 0.5rem;
+	background-color: #22c55e; /* bg-green-500 */
+}
+
+.scdkpi-status-ping {
+	position: absolute;
+	display: inline-flex;
+	height: 100%;
+	width: 100%;
+	border-radius: 9999px;
+	background-color: #4ade80; /* bg-green-400 */
+	opacity: 0.75;
+	animation: scdkpi-ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes scdkpi-ping {
+	75%,
+	100% {
+		transform: scale(2);
+		opacity: 0;
+	}
+}
+
+/* Header Title Fixes */
+.scdkpi-header-title {
+	font-weight: 600 !important;
+	color: #1e293b !important; /* text-slate-800 */
+	margin: 0 !important;
+	line-height: 1 !important;
+}
+
+/* --- Layout Logic --- */
+.scdkpi-header-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 1.25rem;
+	border-bottom: 1px solid #e2e8f0 !important; /* Forces the Image 2 border */
+}
+
+.scdkpi-header-left {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.scdkpi-logo-wrapper {
+	width: 40px;
+	height: 40px;
+	flex-shrink: 0;
+}
+
+/* --- User Badge Logic --- */
+.scdkpi-user-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	background: white;
+	padding: 4px 16px 4px 4px;
+	border-radius: 9999px;
+	border: 1px solid #e2e8f0;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.scdkpi-user-initials {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background: linear-gradient(to top right, #7c3aed, #4f46e5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 10px;
+	font-weight: bold;
+	color: white;
+}
+
+.scdkpi-user-info {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.2;
+}
+
+.scdkpi-user-name {
+	font-size: 14px;
+	font-weight: 700;
+	color: #1e293b;
+}
+
+.scdkpi-user-login {
+	font-size: 10px;
+	font-weight: 500;
+	color: #94a3b8;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+/* --- Animation Logic --- */
+.scdkpi-user-name-row {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.scdkpi-status-indicator {
+	position: relative;
+	display: flex;
+	height: 8px;
+	width: 8px;
+}
+
+.scdkpi-status-dot {
+	position: relative;
+	border-radius: 50%;
+	height: 8px;
+	width: 8px;
+	background-color: #b9baba;
+}
+
+.scdkpi-status-dot-active {
+	position: relative;
+	border-radius: 50%;
+	height: 8px;
+	width: 8px;
+	background-color: #22c55e;
+}
+
+.scdkpi-status-ping {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	background-color: #4ade80;
+	opacity: 0.75;
+	animation: scdkpi-ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes scdkpi-ping {
+	75%,
+	100% {
+		transform: scale(2.5);
+		opacity: 0;
+	}
+}
+
+/* --- Responsive Title --- */
+.scdkpi-header-title {
+	margin: 0 !important;
+	font-weight: 600 !important;
+	color: #1e293b !important;
+}
+
+@media (min-width: 600px) {
+	.scdkpi-header-title {
+		font-size: 28px !important;
+	}
+}
+@media (max-width: 600px) {
+	.scdkpi-header-title {
+		font-size: 21px !important;
+	}
+}
+@media (max-width: 500px) {
+	.scdkpi-user-badge-wrapper {
+		display: none;
+	}
+}
+
+/* ==========================================================================
+   4. UTILITIES & RESPONSIVE
+   ========================================================================== */
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+.no-scrollbar {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+@media (min-width: 600px) {
+	.scdkpi-header-title {
+		font-size: 28px !important;
+	}
+}
+@media (max-width: 600px) {
+	.scdkpi-header-title {
+		font-size: 21px !important;
+	}
+}
+@media (max-width: 550px) {
+	.scdkpi-user-badge-wrapper {
+		display: none;
+	}
+}
+
+/* ==========================================================================
+   5. CORE VIEWPORT & LAYOUT (Merged from Blocks, Leads, and Settings)
+   ========================================================================== */
+
+/* Prevent WordPress footer from jumping/overlapping */
+#wpbody-content {
+	padding-bottom: 0 !important;
+}
+
+#wpfooter {
+	display: none !important;
+}
+
+/* The magic container that stays fixed to the screen */
+.scdkpi-main-viewport {
+	height: calc(100vh - 60px) !important; /* Standardized for Admin Bar */
+	display: flex !important;
+	flex-direction: column !important;
+	overflow: hidden !important;
+	position: relative;
+	box-sizing: border-box;
+	min-height: 0;
+}
+
+.scdkpi-kpi-main-viewport {
+	height: calc(100vh) !important; /* Standardized for Admin Bar */
+	display: flex !important;
+	flex-direction: column !important;
+	overflow: hidden !important;
+	position: relative;
+	box-sizing: border-box;
+	min-height: 0;
+}
+
+.scdkpi-scroll-area {
+	flex: 1;
+	overflow-y: auto;
+	min-height: 0;
+	scrollbar-width: thin;
+	padding: 24px; /* Desktop (default) */
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+	.scdkpi-scroll-area {
+		padding: 16px;
+	}
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+	.scdkpi-scroll-area {
+		padding: 12px;
+	}
+}
+
+/* ==========================================================================
+   6. SCROLLABLE AREAS & SCROLLBARS
+   ========================================================================== */
+
+/* Shared Custom Scrollbar Logic */
+.scdkpi-scrollable-area::-webkit-scrollbar,
+.scdkpi-lead-scroll::-webkit-scrollbar,
+#m-meta-container::-webkit-scrollbar {
+	width: 6px;
+}
+
+.scdkpi-scrollable-area::-webkit-scrollbar-thumb,
+.scdkpi-lead-scroll::-webkit-scrollbar-thumb,
+#m-meta-container::-webkit-scrollbar-thumb {
+	background: #cbd5e1;
+	border-radius: 10px;
+}
+
+/* ==========================================================================
+   7. SHARED UI COMPONENTS (Buttons, FAQ, Sticky Footer)
+   ========================================================================== */
+
+:root {
+	--scdkpi-purple: #7c3aed;
+	--scdkpi-purple-hover: #6d28d9;
+}
+
+/* Unified Purple Button */
+.purple-btn {
+	background-color: var(--scdkpi-purple) !important;
+	color: white !important;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	transition: all 0.2s;
+}
+
+.purple-btn:hover {
+	background-color: var(--scdkpi-purple-hover) !important;
+}
+
+/* Copy Button Utility */
+.copy-btn {
+	cursor: pointer;
+	color: #94a3b8;
+	transition: color 0.2s;
+}
+
+.copy-btn:hover {
+	color: var(--scdkpi-purple);
+}
+
+/* Sticky Footer (Used in Leads/Tasks tables) */
+.scdkpi-footer-sticky {
+	background: white !important;
+	border: 1px solid #e2e8f0 !important;
+	border-top: none !important;
+	padding: 1rem 1.5rem !important;
+	border-radius: 0 0 1.5rem 1.5rem !important;
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+	flex-shrink: 0;
+}
+
+/* FAQ Accordion Logic */
+.faq-item.active .faq-content {
+	grid-template-rows: 1fr;
+}
+
+.faq-item.active .faq-icon {
+	transform: rotate(180deg);
+	color: #9333ea;
+}
+
+.faq-item.active .faq-trigger {
+	color: #9333ea;
+}
+
+.faq-content {
+	grid-template-rows: 0fr;
+}
+
+.faq-item.active .faq-content {
+	grid-template-rows: 1fr;
+}
+
+.faq-focus-highlight {
+	animation: faq-glow 2s ease-out;
+}
+@keyframes faq-glow {
+	0% {
+		box-shadow: 0 0 0 0px rgba(147, 51, 234, 0);
+		border-color: rgb(226, 232, 240);
+	}
+	20% {
+		box-shadow: 0 0 0 4px rgba(147, 51, 234, 0.3);
+		border-color: #9333ea;
+	}
+	100% {
+		box-shadow: 0 0 0 0px rgba(147, 51, 234, 0);
+		border-color: rgb(226, 232, 240);
+	}
+}
+
+/* ==========================================================================
+   8. MODALS & PREVIEWS
+   ========================================================================== */
+
+body.scdkpi-modal-active {
+	overflow: hidden !important;
+}
+
+#scdkpi-lead-modal {
+	padding: 40px 0;
+}
+
+#scdkpi-lead-modal .relative {
+	display: flex;
+	flex-direction: column;
+	max-height: calc(100vh - 80px);
+	width: 100%;
+	max-width: 28rem;
+	margin: auto;
+	background: white;
+	border-radius: 2rem;
+	overflow: hidden;
+	position: relative;
+}
+
+#m-meta-container {
+	flex: 1;
+	overflow-y: auto;
+	padding: 2rem;
+	background-color: rgb(248 250 252 / 0.5);
+	scrollbar-gutter: stable;
+}
+
+/* ==========================================================================
+   9. SETTINGS PAGE SPECIFIC (Palette Grid)
+   ========================================================================== */
+
+#scdkpi-palette-grid {
+	max-height: 29rem;
+	overflow-y: auto;
+	padding-right: 12px;
+}
+
+#scdkpi-palette-grid::-webkit-scrollbar {
+	width: 8px;
+}
+
+#scdkpi-palette-grid::-webkit-scrollbar-track {
+	background: #f1f5f9;
+	border-radius: 10px;
+}
+
+#scdkpi-palette-grid::-webkit-scrollbar-thumb {
+	background: #cbd5e1;
+	border-radius: 10px;
+}
+
+#scdkpi-palette-grid::-webkit-scrollbar-thumb:hover {
+	background: #94a3b8;
+}
+
+/* Column Utilities */
+.col-subject {
+	max-width: 180px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
