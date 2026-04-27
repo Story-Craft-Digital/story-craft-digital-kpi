@@ -1,0 +1,71 @@
+/* /admin/assets/css/admin-protection.css */
+
+/* ------------------------------------------------
+   Protect WordPress admin layout
+------------------------------------------------ */
+
+body.wp-admin:not(.scdkpi-admin-page) #wpwrap,
+body.wp-admin:not(.scdkpi-admin-page) #wpcontent,
+body.wp-admin:not(.scdkpi-admin-page) #wpbody,
+body.wp-admin:not(.scdkpi-admin-page) #wpbody-content,
+body.wp-admin:not(.scdkpi-admin-page) .wrap {
+    position: relative !important;
+    overflow: visible !important;
+}
+
+
+/* ------------------------------------------------
+   Protect list tables
+------------------------------------------------ */
+
+body.wp-admin .wp-list-table,
+body.wp-admin .wp-list-table * {
+    position: relative !important;
+}
+
+
+/* ------------------------------------------------
+   Allow SCD modals to overlay admin
+------------------------------------------------ */
+
+#scdkpi-addon-modal,
+#scdkpi-block-modal,
+.scdkpi-modal {
+    position: fixed !important;
+}
+
+
+/* ------------------------------------------------
+   Prevent Tailwind min-h-screen issues
+------------------------------------------------ */
+
+body.wp-admin .wrap[class*="scdkpi-"] {
+    min-height: 0 !important;
+}
+
+
+/* ------------------------------------------------
+   FIX: viewport height only on SCD pages
+------------------------------------------------ */
+body.scdkpi-admin-page #wpwrap,
+body.scdkpi-admin-page,
+body.scdkpi-admin-page #wpcontent,
+body.scdkpi-admin-page #wpbody,
+body.scdkpi-admin-page #wpbody-content {
+    height: calc(100vh - 60px) !important;
+}
+
+body.scdkpi-admin-page #wpbody-content {
+    display: flex;
+    flex-direction: column;
+}
+
+body.scdkpi-admin-page #wpbody-content {
+    padding-bottom: 0 !important;
+}
+
+body.scdkpi-admin-page .wrap {
+    height: calc(100vh - 60px) !important;
+    display: flex;
+    flex-direction: column;
+}
