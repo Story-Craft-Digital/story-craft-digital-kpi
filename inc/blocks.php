@@ -7,9 +7,9 @@ if (! defined('ABSPATH')) exit;
 function scdkpi_get_asset_map() {
     return [
     // Background and System Assets
-    'scdkpi-pink-purple-bg-image.avif'           => 'assets/images/defaults/scdkpi-pink-purple-bg-image.avif',
-    'scdkpi-contact-form-image.jpg'              => 'assets/images/defaults/scdkpi-contact-form-image.jpg',
-    'scdkpi-featured-card-placeholder.jpg'      => 'assets/images/defaults/scdkpi-featured-card-placeholder.jpg',
+    'scdkpi-pink-purple-bg-image.webp'           => 'assets/images/defaults/scdkpi-pink-purple-bg-image.webp',
+    'scdkpi-contact-form-image.webp'              => 'assets/images/defaults/scdkpi-contact-form-image.webp',
+    'scdkpi-featured-card-placeholder.webp'      => 'assets/images/defaults/scdkpi-featured-card-placeholder.webp',
 
     // Brand Carousel Assets
     'scdkpi-brand-carousel-image-1.webp'         => 'assets/images/defaults/scdkpi-brand-carousel-image-1.webp',
@@ -19,32 +19,32 @@ function scdkpi_get_asset_map() {
     'scdkpi-brand-carousel-image-5.webp'         => 'assets/images/defaults/scdkpi-brand-carousel-image-5.webp',
 
     // Multi-Content Carousel Assets (Combined from both JSON blocks)
-    'scdkpi-carousel-image-holistic-strategy.jpg'   => 'assets/images/defaults/scdkpi-carousel-image-holistic-strategy.jpg',
-    'scdkpi-carousel-image-brand-evaluation.jpg'    => 'assets/images/defaults/scdkpi-carousel-image-brand-evaluation.jpg',
-    'scdkpi-carousel-image-interface-design.jpg'    => 'assets/images/defaults/scdkpi-carousel-image-interface-design.jpg',
-    'scdkpi-carousel-image-precision-marketing.jpg' => 'assets/images/defaults/scdkpi-carousel-image-precision-marketing.jpg',
-    'scdkpi-carousel-image-strategic-content.jpg'   => 'assets/images/defaults/scdkpi-carousel-image-strategic-content.jpg',
-    'scdkpi-carousel-image-visual-storytelling.jpg' => 'assets/images/defaults/scdkpi-carousel-image-visual-storytelling.jpg',
-    'scdkpi-carousel-image-digital-echo-system.jpg' => 'assets/images/defaults/scdkpi-carousel-image-digital-echo-system.jpg',
-    'scdkpi-carousel-image-revenue-scaling.jpg'     => 'assets/images/defaults/scdkpi-carousel-image-revenue-scaling.jpg',
-    'scdkpi-carousel-image-narrative-mastery.jpg'   => 'assets/images/defaults/scdkpi-carousel-image-narrative-mastery.jpg',
-    'scdkpi-carousel-image-future-tech-potrait.jpg' => 'assets/images/defaults/scdkpi-carousel-image-future-tech-potrait.jpg',
+    'scdkpi-carousel-image-holistic-strategy.webp'   => 'assets/images/defaults/scdkpi-carousel-image-holistic-strategy.webp',
+    'scdkpi-carousel-image-brand-evaluation.webp'    => 'assets/images/defaults/scdkpi-carousel-image-brand-evaluation.webp',
+    'scdkpi-carousel-image-interface-design.webp'    => 'assets/images/defaults/scdkpi-carousel-image-interface-design.webp',
+    'scdkpi-carousel-image-precision-marketing.webp' => 'assets/images/defaults/scdkpi-carousel-image-precision-marketing.webp',
+    'scdkpi-carousel-image-strategic-content.webp'   => 'assets/images/defaults/scdkpi-carousel-image-strategic-content.webp',
+    'scdkpi-carousel-image-visual-storytelling.webp' => 'assets/images/defaults/scdkpi-carousel-image-visual-storytelling.webp',
+    'scdkpi-carousel-image-digital-echo-system.webp' => 'assets/images/defaults/scdkpi-carousel-image-digital-echo-system.webp',
+    'scdkpi-carousel-image-revenue-scaling.webp'     => 'assets/images/defaults/scdkpi-carousel-image-revenue-scaling.webp',
+    'scdkpi-carousel-image-narrative-mastery.webp'   => 'assets/images/defaults/scdkpi-carousel-image-narrative-mastery.webp',
+    'scdkpi-carousel-image-future-tech-potrait.webp' => 'assets/images/defaults/scdkpi-carousel-image-future-tech-potrait.webp',
 
     // Multi-Image Carousel Card Assets
-    'scdkpi-multi-image-carousel-card1-image-1.jpg' => 'assets/images/defaults/scdkpi-multi-image-carousel-card1-image-1.jpg',
-    'scdkpi-multi-image-carousel-card1-image-2.jpg' => 'assets/images/defaults/scdkpi-multi-image-carousel-card1-image-2.jpg',
-    'scdkpi-multi-image-carousel-card2-image-1.jpg' => 'assets/images/defaults/scdkpi-multi-image-carousel-card2-image-1.jpg',
-    'scdkpi-multi-image-carousel-card2-image-2.jpg' => 'assets/images/defaults/scdkpi-multi-image-carousel-card2-image-2.jpg',
+    'scdkpi-multi-image-carousel-card1-image-1.webp' => 'assets/images/defaults/scdkpi-multi-image-carousel-card1-image-1.webp',
+    'scdkpi-multi-image-carousel-card1-image-2.webp' => 'assets/images/defaults/scdkpi-multi-image-carousel-card1-image-2.webp',
+    'scdkpi-multi-image-carousel-card2-image-1.webp' => 'assets/images/defaults/scdkpi-multi-image-carousel-card2-image-1.webp',
+    'scdkpi-multi-image-carousel-card2-image-2.webp' => 'assets/images/defaults/scdkpi-multi-image-carousel-card2-image-2.webp',
 
     // Testimonial Assets
-    'scdkpi-testimonial-image-aisha.png'         => 'assets/images/defaults/scdkpi-testimonial-image-aisha.png',
-    'scdkpi-testimonial-image-ben.png'           => 'assets/images/defaults/scdkpi-testimonial-image-ben.png',
-    'scdkpi-testimonial-image-david.png'         => 'assets/images/defaults/scdkpi-testimonial-image-david.png',
-    'scdkpi-testimonial-image-elena.png'         => 'assets/images/defaults/scdkpi-testimonial-image-elena.png',
-    'scdkpi-testimonial-image-kenji.png'         => 'assets/images/defaults/scdkpi-testimonial-image-kenji.png',
-    'scdkpi-testimonial-image-mark.png'          => 'assets/images/defaults/scdkpi-testimonial-image-mark.png',
-    'scdkpi-testimonial-image-priya.png'         => 'assets/images/defaults/scdkpi-testimonial-image-priya.png',
-    'scdkpi-testimonial-image-sarah.png'         => 'assets/images/defaults/scdkpi-testimonial-image-sarah.png',
+    'scdkpi-testimonial-image-aisha.webp'         => 'assets/images/defaults/scdkpi-testimonial-image-aisha.webp',
+    'scdkpi-testimonial-image-ben.webp'           => 'assets/images/defaults/scdkpi-testimonial-image-ben.webp',
+    'scdkpi-testimonial-image-david.webp'         => 'assets/images/defaults/scdkpi-testimonial-image-david.webp',
+    'scdkpi-testimonial-image-elena.webp'         => 'assets/images/defaults/scdkpi-testimonial-image-elena.webp',
+    'scdkpi-testimonial-image-kenji.webp'         => 'assets/images/defaults/scdkpi-testimonial-image-kenji.webp',
+    'scdkpi-testimonial-image-mark.webp'          => 'assets/images/defaults/scdkpi-testimonial-image-mark.webp',
+    'scdkpi-testimonial-image-priya.webp'         => 'assets/images/defaults/scdkpi-testimonial-image-priya.webp',
+    'scdkpi-testimonial-image-sarah.webp'         => 'assets/images/defaults/scdkpi-testimonial-image-sarah.webp',
 ];
 }
 

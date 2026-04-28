@@ -114,7 +114,7 @@
     },
     "image": {
       "type": "string",
-      "default": "scdkpi-pink-purple-bg-image.avif"
+      "default": "scdkpi-pink-purple-bg-image.webp"
     },
     "imageAlt": {
       "type": "string",

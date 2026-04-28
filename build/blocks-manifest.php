@@ -121,7 +121,7 @@ return array(
 			),
 			'image' => array(
 				'type' => 'string',
-				'default' => 'scdkpi-pink-purple-bg-image.avif'
+				'default' => 'scdkpi-pink-purple-bg-image.webp'
 			),
 			'imageAlt' => array(
 				'type' => 'string',
@@ -720,7 +720,7 @@ return array(
 			),
 			'image' => array(
 				'type' => 'string',
-				'default' => 'scdkpi-featured-card-placeholder.jpg'
+				'default' => 'scdkpi-featured-card-placeholder.webp'
 			),
 			'imageAlt' => array(
 				'type' => 'string',
@@ -1000,7 +1000,7 @@ return array(
 				'default' => array(
 					array(
 						'title' => 'Visual Storytelling',
-						'image' => 'scdkpi-carousel-image-visual-storytelling.jpg',
+						'image' => 'scdkpi-carousel-image-visual-storytelling.webp',
 						'imgAlt' => 'SCD Brand design showcase',
 						'link' => '#',
 						'fontSize' => 25,
@@ -1011,7 +1011,7 @@ return array(
 					),
 					array(
 						'title' => 'Digital Ecosystems',
-						'image' => 'scdkpi-carousel-image-digital-echo-system.jpg',
+						'image' => 'scdkpi-carousel-image-digital-echo-system.webp',
 						'imgAlt' => 'SCD Modern web interface',
 						'link' => '#',
 						'fontSize' => 25,
@@ -1022,7 +1022,7 @@ return array(
 					),
 					array(
 						'title' => 'Revenue Scaling',
-						'image' => 'scdkpi-carousel-image-revenue-scaling.jpg',
+						'image' => 'scdkpi-carousel-image-revenue-scaling.webp',
 						'imgAlt' => 'SCD Analytics and growth charts',
 						'link' => '#',
 						'fontSize' => 25,
@@ -1033,7 +1033,7 @@ return array(
 					),
 					array(
 						'title' => 'Narrative Mastery',
-						'image' => 'scdkpi-carousel-image-narrative-mastery.jpg',
+						'image' => 'scdkpi-carousel-image-narrative-mastery.webp',
 						'imgAlt' => 'SCD Content creation desk',
 						'link' => '#',
 						'fontSize' => 25,
@@ -1044,7 +1044,7 @@ return array(
 					),
 					array(
 						'title' => 'Next-Gen Tech',
-						'image' => 'scdkpi-carousel-image-future-tech-potrait.jpg',
+						'image' => 'scdkpi-carousel-image-future-tech-potrait.webp',
 						'imgAlt' => 'SCD AI and technology nodes',
 						'link' => '#',
 						'fontSize' => 25,
@@ -1227,7 +1227,7 @@ return array(
 					array(
 						'id' => 'scd-mod-1',
 						'title' => 'Holistic Strategy',
-						'image' => 'scdkpi-carousel-image-holistic-strategy.jpg',
+						'image' => 'scdkpi-carousel-image-holistic-strategy.webp',
 						'imgAlt' => 'Digital Strategy Planning',
 						'link' => '',
 						'fontSize' => 25,
@@ -1239,7 +1239,7 @@ return array(
 					array(
 						'id' => 'scd-mod-2',
 						'title' => 'Brand Evolution',
-						'image' => 'scdkpi-carousel-image-brand-evaluation.jpg',
+						'image' => 'scdkpi-carousel-image-brand-evaluation.webp',
 						'imgAlt' => 'Brand Innovation and Design',
 						'link' => '',
 						'fontSize' => 25,
@@ -1251,7 +1251,7 @@ return array(
 					array(
 						'id' => 'scd-mod-3',
 						'title' => 'Interface Design',
-						'image' => 'scdkpi-carousel-image-interface-design.jpg',
+						'image' => 'scdkpi-carousel-image-interface-design.webp',
 						'imgAlt' => 'Sleek UX/UI Design',
 						'link' => '',
 						'fontSize' => 25,
@@ -1263,7 +1263,7 @@ return array(
 					array(
 						'id' => 'scd-mod-4',
 						'title' => 'Precision Marketing',
-						'image' => 'scdkpi-carousel-image-precision-marketing.jpg',
+						'image' => 'scdkpi-carousel-image-precision-marketing.webp',
 						'imgAlt' => 'Performance Marketing Analytics',
 						'link' => '',
 						'fontSize' => 25,
@@ -1275,7 +1275,7 @@ return array(
 					array(
 						'id' => 'scd-mod-5',
 						'title' => 'Strategic Content',
-						'image' => 'scdkpi-carousel-image-strategic-content.jpg',
+						'image' => 'scdkpi-carousel-image-strategic-content.webp',
 						'imgAlt' => 'Creative Narrative and Storytelling',
 						'link' => '',
 						'fontSize' => 25,
@@ -1461,8 +1461,8 @@ return array(
 				'default' => array(
 					array(
 						'images' => array(
-							'scdkpi-multi-image-carousel-card1-image-1.jpg',
-							'scdkpi-multi-image-carousel-card1-image-2.jpg'
+							'scdkpi-multi-image-carousel-card1-image-1.webp',
+							'scdkpi-multi-image-carousel-card1-image-2.webp'
 						),
 						'title' => 'Storytelling. Crafted for Digital.',
 						'description' => 'We build highly engaging, conversion-focused narratives across every digital touchpoint.',
@@ -1482,8 +1482,8 @@ return array(
 					),
 					array(
 						'images' => array(
-							'scdkpi-multi-image-carousel-card2-image-1.jpg',
-							'scdkpi-multi-image-carousel-card2-image-2.jpg'
+							'scdkpi-multi-image-carousel-card2-image-1.webp',
+							'scdkpi-multi-image-carousel-card2-image-2.webp'
 						),
 						'title' => 'Interactive UX. Dynamic Impact.',
 						'description' => 'Seamless, high-performance interfaces that optimize the modern user journey.',
@@ -1799,7 +1799,7 @@ return array(
 			),
 			'image' => array(
 				'type' => 'string',
-				'default' => 'scdkpi-contact-form-image.jpg'
+				'default' => 'scdkpi-contact-form-image.webp'
 			),
 			'imageAlt' => array(
 				'type' => 'string',
@@ -2360,7 +2360,7 @@ return array(
 			),
 			'image' => array(
 				'type' => 'string',
-				'default' => 'scdkpi-contact-form-image.jpg'
+				'default' => 'scdkpi-contact-form-image.webp'
 			),
 			'imageAlt' => array(
 				'type' => 'string',
@@ -3038,7 +3038,7 @@ return array(
 						'text' => 'Story Craft Digital genuinely revitalized how we connect with customers. Seeing leads increase by 45% felt like a true joint achievement!',
 						'rating' => 5,
 						'link' => '#',
-						'image' => 'scdkpi-testimonial-image-sarah.png',
+						'image' => 'scdkpi-testimonial-image-sarah.webp',
 						'imgAlt' => 'Sarah Chen, Marketing Director'
 					),
 					array(
@@ -3046,7 +3046,7 @@ return array(
 						'text' => 'The resulting modern design is exactly what we hoped for. We’ve seen measurable growth in both user engagement and satisfaction since launch.',
 						'rating' => 5,
 						'link' => '#',
-						'image' => 'scdkpi-testimonial-image-mark.png',
+						'image' => 'scdkpi-testimonial-image-mark.webp',
 						'imgAlt' => 'Mark Rodriguez, Founder'
 					),
 					array(
@@ -3054,7 +3054,7 @@ return array(
 						'text' => 'They simplified a complex part of our business, and the resulting ROI was remarkable. Their analytical precision gave us the competitive advantage we needed.',
 						'rating' => 5,
 						'link' => '#',
-						'image' => 'scdkpi-testimonial-image-aisha.png',
+						'image' => 'scdkpi-testimonial-image-aisha.webp',
 						'imgAlt' => 'Aisha Khan, Chief Data Officer'
 					),
 					array(
@@ -3062,7 +3062,7 @@ return array(
 						'text' => 'The content precision they brought to our strategic narrative changed everything. Story Craft Digital captured attention by simplifying our message.',
 						'rating' => 5,
 						'link' => '#',
-						'image' => 'scdkpi-testimonial-image-david.png',
+						'image' => 'scdkpi-testimonial-image-david.webp',
 						'imgAlt' => 'David Smith, Head of Strategy'
 					),
 					array(
@@ -3070,7 +3070,7 @@ return array(
 						'text' => 'They didn\'t just present complex theories; they showed us exactly how to unify our story with scalable, sophisticated tech. This felt like true digital innovation.',
 						'rating' => 5,
 						'link' => '#',
-						'image' => 'scdkpi-testimonial-image-elena.png',
+						'image' => 'scdkpi-testimonial-image-elena.webp',
 						'imgAlt' => 'Elena Petrova, Visionary Founder'
 					),
 					array(
@@ -3078,7 +3078,7 @@ return array(
 						'text' => ' delivered a cohesive, tailored system that feels authentic to who we are. It’s been a professional pleasure working with them.',
 						'rating' => 5,
 						'link' => '#',
-						'image' => 'scdkpi-testimonial-image-kenji.png',
+						'image' => 'scdkpi-testimonial-image-kenji.webp',
 						'imgAlt' => 'Kenji Tanaka, Brand Manager'
 					),
 					array(
@@ -3086,7 +3086,7 @@ return array(
 						'text' => 'Their close-up focus and elegant handling of data visualizations helped us communicate effectively, truly crafting digital impact.',
 						'rating' => 5,
 						'link' => '#',
-						'image' => 'scdkpi-testimonial-image-priya.png',
+						'image' => 'scdkpi-testimonial-image-priya.webp',
 						'imgAlt' => 'Priya Sharma, Lead Strategist'
 					),
 					array(
@@ -3094,7 +3094,7 @@ return array(
 						'text' => 'The sophisticated dashboard they delivered Unified data perfectly with our core business narrative, providing clarity on our digital performance.',
 						'rating' => 5,
 						'link' => '#',
-						'image' => 'scdkpi-testimonial-image-ben.png',
+						'image' => 'scdkpi-testimonial-image-ben.webp',
 						'imgAlt' => 'Dr. Ben Carter, Director'
 					)
 				)

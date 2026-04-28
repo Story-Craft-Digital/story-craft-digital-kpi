@@ -28,7 +28,7 @@
     },
     "image": {
       "type": "string",
-      "default": "scdkpi-featured-card-placeholder.jpg"
+      "default": "scdkpi-featured-card-placeholder.webp"
     },
     "imageAlt": {
       "type": "string",
