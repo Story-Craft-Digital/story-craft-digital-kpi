@@ -29,7 +29,7 @@
       "default": [
         {
           "title": "Visual Storytelling",
-          "image": "scdkpi-carousel-image-visual-storytelling.png",
+          "image": "scdkpi-carousel-image-visual-storytelling.jpg",
           "imgAlt": "SCD Brand design showcase",
           "link": "#",
           "fontSize": 25,
@@ -40,7 +40,7 @@
         },
         {
           "title": "Digital Ecosystems",
-          "image": "scdkpi-carousel-image-digital-echo-system.png",
+          "image": "scdkpi-carousel-image-digital-echo-system.jpg",
           "imgAlt": "SCD Modern web interface",
           "link": "#",
           "fontSize": 25,
@@ -51,7 +51,7 @@
         },
         {
           "title": "Revenue Scaling",
-          "image": "scdkpi-carousel-image-revenue-scaling.png",
+          "image": "scdkpi-carousel-image-revenue-scaling.jpg",
           "imgAlt": "SCD Analytics and growth charts",
           "link": "#",
           "fontSize": 25,
@@ -62,7 +62,7 @@
         },
         {
           "title": "Narrative Mastery",
-          "image": "scdkpi-carousel-image-narrative-mastery.png",
+          "image": "scdkpi-carousel-image-narrative-mastery.jpg",
           "imgAlt": "SCD Content creation desk",
           "link": "#",
           "fontSize": 25,
@@ -73,7 +73,7 @@
         },
         {
           "title": "Next-Gen Tech",
-          "image": "scdkpi-carousel-image-future-tech-potrait.png",
+          "image": "scdkpi-carousel-image-future-tech-potrait.jpg",
           "imgAlt": "SCD AI and technology nodes",
           "link": "#",
           "fontSize": 25,

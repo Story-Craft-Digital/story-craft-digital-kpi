@@ -34,8 +34,8 @@
       "default": [
         {
           "images": [
-            "scdkpi-multi-image-carousel-card1-image-1.png",
-            "scdkpi-multi-image-carousel-card1-image-2.png"
+            "scdkpi-multi-image-carousel-card1-image-1.jpg",
+            "scdkpi-multi-image-carousel-card1-image-2.jpg"
           ],
           "title": "Storytelling. Crafted for Digital.",
           "description": "We build highly engaging, conversion-focused narratives across every digital touchpoint.",
@@ -55,8 +55,8 @@
         },
         {
           "images": [
-            "scdkpi-multi-image-carousel-card2-image-1.png",
-            "scdkpi-multi-image-carousel-card2-image-2.png"
+            "scdkpi-multi-image-carousel-card2-image-1.jpg",
+            "scdkpi-multi-image-carousel-card2-image-2.jpg"
           ],
           "title": "Interactive UX. Dynamic Impact.",
           "description": "Seamless, high-performance interfaces that optimize the modern user journey.",

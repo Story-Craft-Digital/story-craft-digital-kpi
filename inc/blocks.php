@@ -8,33 +8,33 @@ function scdkpi_get_asset_map() {
     return [
     // Background and System Assets
     'scdkpi-pink-purple-bg-image.avif'           => 'assets/images/defaults/scdkpi-pink-purple-bg-image.avif',
-    'scdkpi-contact-form-image.png'              => 'assets/images/defaults/scdkpi-contact-form-image.png',
-    'scdkpi-featured-card-placeholder.png'      => 'assets/images/defaults/scdkpi-featured-card-placeholder.png',
+    'scdkpi-contact-form-image.jpg'              => 'assets/images/defaults/scdkpi-contact-form-image.jpg',
+    'scdkpi-featured-card-placeholder.jpg'      => 'assets/images/defaults/scdkpi-featured-card-placeholder.jpg',
 
     // Brand Carousel Assets
-    'scdkpi-brand-carousel-image-1.png'         => 'assets/images/defaults/scdkpi-brand-carousel-image-1.png',
-    'scdkpi-brand-carousel-image-2.png'         => 'assets/images/defaults/scdkpi-brand-carousel-image-2.png',
-    'scdkpi-brand-carousel-image-3.png'         => 'assets/images/defaults/scdkpi-brand-carousel-image-3.png',
-    'scdkpi-brand-carousel-image-4.png'         => 'assets/images/defaults/scdkpi-brand-carousel-image-4.png',
-    'scdkpi-brand-carousel-image-5.png'         => 'assets/images/defaults/scdkpi-brand-carousel-image-5.png',
+    'scdkpi-brand-carousel-image-1.webp'         => 'assets/images/defaults/scdkpi-brand-carousel-image-1.webp',
+    'scdkpi-brand-carousel-image-2.webp'         => 'assets/images/defaults/scdkpi-brand-carousel-image-2.webp',
+    'scdkpi-brand-carousel-image-3.webp'         => 'assets/images/defaults/scdkpi-brand-carousel-image-3.webp',
+    'scdkpi-brand-carousel-image-4.webp'         => 'assets/images/defaults/scdkpi-brand-carousel-image-4.webp',
+    'scdkpi-brand-carousel-image-5.webp'         => 'assets/images/defaults/scdkpi-brand-carousel-image-5.webp',
 
     // Multi-Content Carousel Assets (Combined from both JSON blocks)
-    'scdkpi-carousel-image-holistic-strategy.png'   => 'assets/images/defaults/scdkpi-carousel-image-holistic-strategy.png',
-    'scdkpi-carousel-image-brand-evaluation-scaled.png'    => 'assets/images/defaults/scdkpi-carousel-image-brand-evaluation-scaled.png',
-    'scdkpi-carousel-image-interface-design.png'    => 'assets/images/defaults/scdkpi-carousel-image-interface-design.png',
-    'scdkpi-carousel-image-precision-marketing-scaled.png' => 'assets/images/defaults/scdkpi-carousel-image-precision-marketing-scaled.png',
-    'scdkpi-carousel-image-strategic-content.png'   => 'assets/images/defaults/scdkpi-carousel-image-strategic-content.png',
-    'scdkpi-carousel-image-visual-storytelling.png' => 'assets/images/defaults/scdkpi-carousel-image-visual-storytelling.png',
-    'scdkpi-carousel-image-digital-echo-system.png' => 'assets/images/defaults/scdkpi-carousel-image-digital-echo-system.png',
-    'scdkpi-carousel-image-revenue-scaling.png'     => 'assets/images/defaults/scdkpi-carousel-image-revenue-scaling.png',
-    'scdkpi-carousel-image-narrative-mastery.png'   => 'assets/images/defaults/scdkpi-carousel-image-narrative-mastery.png',
-    'scdkpi-carousel-image-future-tech-potrait.png' => 'assets/images/defaults/scdkpi-carousel-image-future-tech-potrait.png',
+    'scdkpi-carousel-image-holistic-strategy.jpg'   => 'assets/images/defaults/scdkpi-carousel-image-holistic-strategy.jpg',
+    'scdkpi-carousel-image-brand-evaluation.jpg'    => 'assets/images/defaults/scdkpi-carousel-image-brand-evaluation.jpg',
+    'scdkpi-carousel-image-interface-design.jpg'    => 'assets/images/defaults/scdkpi-carousel-image-interface-design.jpg',
+    'scdkpi-carousel-image-precision-marketing.jpg' => 'assets/images/defaults/scdkpi-carousel-image-precision-marketing.jpg',
+    'scdkpi-carousel-image-strategic-content.jpg'   => 'assets/images/defaults/scdkpi-carousel-image-strategic-content.jpg',
+    'scdkpi-carousel-image-visual-storytelling.jpg' => 'assets/images/defaults/scdkpi-carousel-image-visual-storytelling.jpg',
+    'scdkpi-carousel-image-digital-echo-system.jpg' => 'assets/images/defaults/scdkpi-carousel-image-digital-echo-system.jpg',
+    'scdkpi-carousel-image-revenue-scaling.jpg'     => 'assets/images/defaults/scdkpi-carousel-image-revenue-scaling.jpg',
+    'scdkpi-carousel-image-narrative-mastery.jpg'   => 'assets/images/defaults/scdkpi-carousel-image-narrative-mastery.jpg',
+    'scdkpi-carousel-image-future-tech-potrait.jpg' => 'assets/images/defaults/scdkpi-carousel-image-future-tech-potrait.jpg',
 
     // Multi-Image Carousel Card Assets
-    'scdkpi-multi-image-carousel-card1-image-1.png' => 'assets/images/defaults/scdkpi-multi-image-carousel-card1-image-1.png',
-    'scdkpi-multi-image-carousel-card1-image-2.png' => 'assets/images/defaults/scdkpi-multi-image-carousel-card1-image-2.png',
-    'scdkpi-multi-image-carousel-card2-image-1.png' => 'assets/images/defaults/scdkpi-multi-image-carousel-card2-image-1.png',
-    'scdkpi-multi-image-carousel-card2-image-2.png' => 'assets/images/defaults/scdkpi-multi-image-carousel-card2-image-2.png',
+    'scdkpi-multi-image-carousel-card1-image-1.jpg' => 'assets/images/defaults/scdkpi-multi-image-carousel-card1-image-1.jpg',
+    'scdkpi-multi-image-carousel-card1-image-2.jpg' => 'assets/images/defaults/scdkpi-multi-image-carousel-card1-image-2.jpg',
+    'scdkpi-multi-image-carousel-card2-image-1.jpg' => 'assets/images/defaults/scdkpi-multi-image-carousel-card2-image-1.jpg',
+    'scdkpi-multi-image-carousel-card2-image-2.jpg' => 'assets/images/defaults/scdkpi-multi-image-carousel-card2-image-2.jpg',
 
     // Testimonial Assets
     'scdkpi-testimonial-image-aisha.png'         => 'assets/images/defaults/scdkpi-testimonial-image-aisha.png',

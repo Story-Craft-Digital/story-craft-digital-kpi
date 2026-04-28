@@ -642,31 +642,31 @@ return array(
 					array(
 						'name' => '',
 						'link' => '#',
-						'image' => 'scdkpi-brand-carousel-image-1.png',
+						'image' => 'scdkpi-brand-carousel-image-1.webp',
 						'imgAlt' => 'Orion Digital'
 					),
 					array(
 						'name' => '',
 						'link' => '#',
-						'image' => 'scdkpi-brand-carousel-image-2.png',
+						'image' => 'scdkpi-brand-carousel-image-2.webp',
 						'imgAlt' => 'Catalyst Logistics'
 					),
 					array(
 						'name' => '',
 						'link' => '#',
-						'image' => 'scdkpi-brand-carousel-image-3.png',
+						'image' => 'scdkpi-brand-carousel-image-3.webp',
 						'imgAlt' => 'Luminary AI'
 					),
 					array(
 						'name' => '',
 						'link' => '#',
-						'image' => 'scdkpi-brand-carousel-image-4.png',
+						'image' => 'scdkpi-brand-carousel-image-4.webp',
 						'imgAlt' => 'Horizon Growth'
 					),
 					array(
 						'name' => '',
 						'link' => '#',
-						'image' => 'scdkpi-brand-carousel-image-5.png',
+						'image' => 'scdkpi-brand-carousel-image-5.webp',
 						'imgAlt' => 'Apex Fintech'
 					)
 				)
@@ -720,7 +720,7 @@ return array(
 			),
 			'image' => array(
 				'type' => 'string',
-				'default' => 'scdkpi-featured-card-placeholder.png'
+				'default' => 'scdkpi-featured-card-placeholder.jpg'
 			),
 			'imageAlt' => array(
 				'type' => 'string',
@@ -1000,7 +1000,7 @@ return array(
 				'default' => array(
 					array(
 						'title' => 'Visual Storytelling',
-						'image' => 'scdkpi-carousel-image-visual-storytelling.png',
+						'image' => 'scdkpi-carousel-image-visual-storytelling.jpg',
 						'imgAlt' => 'SCD Brand design showcase',
 						'link' => '#',
 						'fontSize' => 25,
@@ -1011,7 +1011,7 @@ return array(
 					),
 					array(
 						'title' => 'Digital Ecosystems',
-						'image' => 'scdkpi-carousel-image-digital-echo-system.png',
+						'image' => 'scdkpi-carousel-image-digital-echo-system.jpg',
 						'imgAlt' => 'SCD Modern web interface',
 						'link' => '#',
 						'fontSize' => 25,
@@ -1022,7 +1022,7 @@ return array(
 					),
 					array(
 						'title' => 'Revenue Scaling',
-						'image' => 'scdkpi-carousel-image-revenue-scaling.png',
+						'image' => 'scdkpi-carousel-image-revenue-scaling.jpg',
 						'imgAlt' => 'SCD Analytics and growth charts',
 						'link' => '#',
 						'fontSize' => 25,
@@ -1033,7 +1033,7 @@ return array(
 					),
 					array(
 						'title' => 'Narrative Mastery',
-						'image' => 'scdkpi-carousel-image-narrative-mastery.png',
+						'image' => 'scdkpi-carousel-image-narrative-mastery.jpg',
 						'imgAlt' => 'SCD Content creation desk',
 						'link' => '#',
 						'fontSize' => 25,
@@ -1044,7 +1044,7 @@ return array(
 					),
 					array(
 						'title' => 'Next-Gen Tech',
-						'image' => 'scdkpi-carousel-image-future-tech-potrait.png',
+						'image' => 'scdkpi-carousel-image-future-tech-potrait.jpg',
 						'imgAlt' => 'SCD AI and technology nodes',
 						'link' => '#',
 						'fontSize' => 25,
@@ -1227,7 +1227,7 @@ return array(
 					array(
 						'id' => 'scd-mod-1',
 						'title' => 'Holistic Strategy',
-						'image' => 'scdkpi-carousel-image-holistic-strategy.png',
+						'image' => 'scdkpi-carousel-image-holistic-strategy.jpg',
 						'imgAlt' => 'Digital Strategy Planning',
 						'link' => '',
 						'fontSize' => 25,
@@ -1239,7 +1239,7 @@ return array(
 					array(
 						'id' => 'scd-mod-2',
 						'title' => 'Brand Evolution',
-						'image' => 'scdkpi-carousel-image-brand-evaluation-scaled.png',
+						'image' => 'scdkpi-carousel-image-brand-evaluation.jpg',
 						'imgAlt' => 'Brand Innovation and Design',
 						'link' => '',
 						'fontSize' => 25,
@@ -1251,7 +1251,7 @@ return array(
 					array(
 						'id' => 'scd-mod-3',
 						'title' => 'Interface Design',
-						'image' => 'scdkpi-carousel-image-interface-design.png',
+						'image' => 'scdkpi-carousel-image-interface-design.jpg',
 						'imgAlt' => 'Sleek UX/UI Design',
 						'link' => '',
 						'fontSize' => 25,
@@ -1263,7 +1263,7 @@ return array(
 					array(
 						'id' => 'scd-mod-4',
 						'title' => 'Precision Marketing',
-						'image' => 'scdkpi-carousel-image-precision-marketing-scaled.png',
+						'image' => 'scdkpi-carousel-image-precision-marketing.jpg',
 						'imgAlt' => 'Performance Marketing Analytics',
 						'link' => '',
 						'fontSize' => 25,
@@ -1275,7 +1275,7 @@ return array(
 					array(
 						'id' => 'scd-mod-5',
 						'title' => 'Strategic Content',
-						'image' => 'scdkpi-carousel-image-strategic-content.png',
+						'image' => 'scdkpi-carousel-image-strategic-content.jpg',
 						'imgAlt' => 'Creative Narrative and Storytelling',
 						'link' => '',
 						'fontSize' => 25,
@@ -1461,8 +1461,8 @@ return array(
 				'default' => array(
 					array(
 						'images' => array(
-							'scdkpi-multi-image-carousel-card1-image-1.png',
-							'scdkpi-multi-image-carousel-card1-image-2.png'
+							'scdkpi-multi-image-carousel-card1-image-1.jpg',
+							'scdkpi-multi-image-carousel-card1-image-2.jpg'
 						),
 						'title' => 'Storytelling. Crafted for Digital.',
 						'description' => 'We build highly engaging, conversion-focused narratives across every digital touchpoint.',
@@ -1482,8 +1482,8 @@ return array(
 					),
 					array(
 						'images' => array(
-							'scdkpi-multi-image-carousel-card2-image-1.png',
-							'scdkpi-multi-image-carousel-card2-image-2.png'
+							'scdkpi-multi-image-carousel-card2-image-1.jpg',
+							'scdkpi-multi-image-carousel-card2-image-2.jpg'
 						),
 						'title' => 'Interactive UX. Dynamic Impact.',
 						'description' => 'Seamless, high-performance interfaces that optimize the modern user journey.',
@@ -1799,7 +1799,7 @@ return array(
 			),
 			'image' => array(
 				'type' => 'string',
-				'default' => 'scdkpi-contact-form-image.png'
+				'default' => 'scdkpi-contact-form-image.jpg'
 			),
 			'imageAlt' => array(
 				'type' => 'string',
@@ -2360,7 +2360,7 @@ return array(
 			),
 			'image' => array(
 				'type' => 'string',
-				'default' => 'scdkpi-contact-form-image.png'
+				'default' => 'scdkpi-contact-form-image.jpg'
 			),
 			'imageAlt' => array(
 				'type' => 'string',

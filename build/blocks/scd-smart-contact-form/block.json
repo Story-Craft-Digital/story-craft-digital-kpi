@@ -110,7 +110,7 @@
     },
     "image": {
       "type": "string",
-      "default": "scdkpi-contact-form-image.png"
+      "default": "scdkpi-contact-form-image.jpg"
     },
     "imageAlt": {
       "type": "string",
